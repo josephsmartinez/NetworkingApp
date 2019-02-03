@@ -1,0 +1,7 @@
+{%if host %}
+{% for k, v in host.items() %}
+    <p>Key: {{k}} Value: {{v}} </p>
+{% endfor %}
+{% else %}
+  <p></p>
+{% endif %}

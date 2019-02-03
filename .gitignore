@@ -1,0 +1,9 @@
+# Sentive Directories
+csvs/
+logs/
+apis/
+old_py_files/
+__pycache__/
+
+# Other files
+/venv

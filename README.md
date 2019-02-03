@@ -1,22 +1,22 @@
-# NetworkingApp
-FIU Networking Application for FIU Cybersecurity 
+# Networking Web Application with API
 
-## Bootstrap 
+## Set Up ToDos
 
-[Bootstrap](https://getbootstrap.com/)
+- Set up development environment DONE
+- Build testing data
+- Set up Mongo or SQL Server
+- Create Login page
+- Dockerize app
 
-## Flask Web Development Frame Work
+## Development
 
-[Flask Web Development](fdhttp://flask.pocoo.org/sfd)
+- Install application via docker-compose (phpmyadmin, mariadb, deployed app)
 
-## MySQL 
+- Install portainer.io (Container managment)
 
-[MySQL Tutorail](http://www.mysqltutorial.org/python-mysql/)
+`docker volume create portainer_data`  
+`docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer`  
 
-## Jinji
+### OS Dependencies
 
-[Jinja Templating](http://jinja.pocoo.org/)
-
-## Docker
-
-[Docker](https://docs.docker.com/compose/gettingstarted/)
+- apt-get install php7.2-cli

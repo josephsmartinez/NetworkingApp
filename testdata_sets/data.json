@@ -1,0 +1,20 @@
+{
+  'status': 200, 
+  'device': {
+    'parent_name': 'rr-ini07', 
+    'parent_type': 'Switch', 
+    'parent_port': 'Gi2/11', 
+    'fingerprint': 'nomatch', 
+    'address': '99.100.67.100', 
+    'hardware': '0A:0F:27:7f:2e:4a'}
+  }
+
+  {
+    'status': 404
+  }
+
+  {
+    'status': 404, 
+    'message': 'nothing'
+  }
+
