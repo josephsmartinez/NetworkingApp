@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block content %}
+ <!--Start of Header-->
+  <div class="jumbotron">
+    <div class="container">
+      <h1>FIU Networking API | CASTIC</h1>
+      <p>All employees, contractors, consultants, temporary, and other workers at CASTIC and its
+        subsidiaries are responsible for exercising good judgment regarding appropriate use of
+        information, electronic devices, and network resources in accordance with FIU
+        policies and standards, and local laws and regulation. Exceptions to this policy are documented
+        in section 5.2 of CASTIC internal policies and procedures.</p>
+    </div>
+  </div>
+  <!--End of Header-->
+
+  <!--Input Section -->
+  <div class=container>
+    <form method="post">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Please enter a MAC Address</label>
+        <input type="text" class="form-control" id="macaddr" name="macaddr" aria-describedby="emailHelp" placeholder="00:00:00:00:00:00">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <!-- End Input Section -->
+  <hr>
+  <div class="container">
+    <div class="">
+      {%if host %}
+      {% for k, v in host.items() %}
+      <p>Key: {{k}} Value: {{v}} </p>
+      {% endfor %}
+      {% else %}
+      <p>No Data</p>
+      {% endif %}
+    </div>
+  </div>
+{% endblock content %}
