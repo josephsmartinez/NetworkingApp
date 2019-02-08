@@ -4,6 +4,7 @@ logs/
 apis/
 old_py_files/
 __pycache__/
+worknotes/
 
 # Other files
 /venv
