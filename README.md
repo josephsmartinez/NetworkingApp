@@ -17,6 +17,19 @@
 `docker volume create portainer_data`  
 `docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer`  
 
-### OS Dependencies
+## OS Dependencies
 
 - apt-get install php7.2-cli
+
+## Python Vitual Environment
+
+Install with pip or pip3  
+`pip3 install virtualenv`  
+Create env  
+`virtualenv venv --python=python3.6`  
+Start env  
+`source venv/bin/activate`  
+Stop env  
+`deactivate`  
+List installed package and libraries
+`pip freeze`
