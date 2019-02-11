@@ -1,0 +1,46 @@
+version: "2"
+services:
+    # Web Server for Flask
+    # netapi_web: 
+    #     image:
+    #     container_name: 
+    #     restart: 
+    #     ports:
+    #     environment:
+    #     volumes: 
+    
+    # Database 
+    netapi_mariadb:
+        image: mariadb
+        container_name: netapi_mariadb
+        restart: always
+        ports: 
+            - "3306:3306"
+        environment:
+            MYSQL_DATABASE: netapi
+            MYSQL_USER: castic
+            MYSQL_PASSWORD: password
+            MYSQL_ROOT_PASSWORD: password
+        volumes:
+            # - ./dump.sql:/docker-entrypoint-initdb.d
+            - netapi_mariadb:/var/lib/mysql
+            
+    # UI for database     
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        container_name: phpmyadmin
+        restart: always
+        links: 
+            - netapi_mariadb
+        ports:
+            - 8000:80
+        environment:
+            MYSQL_USER: castic
+            MYSQL_PASSWORD: password
+            MYSQL_ROOT_PASSWORD: password
+            PMA_HOST: netapi_mariadb
+            PMA_PORT: 3306
+        depends_on: 
+        - netapi_mariadb
+volumes:
+    netapi_mariadb:
