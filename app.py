@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, url_for, redirect, flash
 from forms import RegistrationForm, LoginForm
 from netapi import get_host
 from flask_sqlalchemy import SQLAlchemy
+from flask_jwt
 
 app = Flask(__name__)
 
