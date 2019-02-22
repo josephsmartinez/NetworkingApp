@@ -31,5 +31,8 @@ Start env
 `source venv/bin/activate`  
 Stop env  
 `deactivate`  
-List installed package and libraries
-`pip freeze`
+List installed package and libraries  
+`pip freeze`  
+To upgrade all local packages  
+`pip install pip-review`  
+`pip-review --local --interactive`  

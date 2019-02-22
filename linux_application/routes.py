@@ -1,16 +1,15 @@
-from flask import Flask, render_template, request, url_for, redirect, flash
-from forms import RegistrationForm, LoginForm
-from netapi import get_host
-from flask_sqlalchemy import SQLAlchemy
-from flask_jwt
+from flask import render_template, request, url_for, redirect, flash
+from linux_application.forms import RegistrationForm, LoginForm
+from linux_application import app
+from linux_application.netapi import get_host
+from linux_application.fileio import FileIO
 
-app = Flask(__name__)
-
-# Research this
-app.config['SECRET_KEY'] = '6dfed37d10b6d7034c0ebbb2972bd97d'
-
+# ALL routes should have auth tokens
 @app.route("/", methods=['GET', 'POST'])
 def login():
+  '''
+  FRONT PAGE
+  '''
   form = LoginForm()
   if form.validate_on_submit():
       if form.username.data == 'castic' and form.password.data == 'password':
@@ -22,12 +21,14 @@ def login():
 
 @app.route("/entermac", methods=['GET', 'POST'])
 def home():
+  '''
+  ENTER MAC PAGE
+  '''
   if request.method == 'POST': #this block is only entered when the form is submitted
     
     macaddr = request.form.get('macaddr')
-    
+
     if macaddr != None:
-     
       # Parse host information 
       host = get_host(macaddr)
       print(host)
@@ -43,6 +44,14 @@ def home():
       return render_template('entermac.html', host=host)
       
   return render_template('entermac.html')
+
+@app.route("/cmbd")
+def ansible_cmbd():
+  return render_template('ansible_cmbd.html')
+
+@app.route("/cadvisor")
+def cadvisor():
+  return render_template('dblisting.html')
 
 @app.route("/db")
 def db():
@@ -72,6 +81,3 @@ def register():
 # def login():
 #   form = LoginForm()
 #   return render_template('register.html', title='Login', form=form)
-
-if __name__== '__main__':
-  app.run(debug=True)

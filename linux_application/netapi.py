@@ -1,10 +1,15 @@
 import subprocess
 import json
+from linux_application.fileio import FileIO
 
 def get_host(mac: str) -> dict:
-  '''Return a JSON object with host networking information'''
+  '''
+  Return a JSON object with host networking information
+  '''
   if mac == None:
-    return "{'message': 'Missing mac address or malformed'}"
+    err_message="{'message': 'Missing mac address or malformed'}"
+    FileIO.log(err_message)
+    return err_message
   else: 
     host = json.loads(subprocess.Popen('php apis/api.php ' + mac.lower(),
     shell=True, stdout=subprocess.PIPE, 
