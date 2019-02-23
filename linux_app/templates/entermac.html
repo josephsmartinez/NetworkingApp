@@ -1,7 +1,8 @@
 {% extends "layout.html" %}
 {% block content %}
+
  <!--Start of Header-->
-  <div class="jumbotron">
+  <div class="jumbotron ">
     <div class="container">
       <h1>FIU Networking API | CASTIC</h1>
       <p>All employees, contractors, consultants, temporary, and other workers at CASTIC and its
@@ -24,8 +25,10 @@
     </form>
   </div>
   <!-- End Input Section -->
+
   <hr>
   <div class="container">
+      
     <div class="">
       {%if host %}
       {% for k, v in host.items() %}
@@ -36,4 +39,21 @@
       {% endif %}
     </div>
   </div>
+  <div class="row">
+      <div class="col-md-12">
+        <div class="content-section">
+          <h3>Return Data</h3>
+          <p class='text-muted'>Enter a mac address to get host data.
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-light">parent name</li>
+              <li class="list-group-item list-group-item-light">parent type</li>
+              <li class="list-group-item list-group-item-light">parent port</li>
+              <li class="list-group-item list-group-item-light">fingerprint</li>
+              <li class="list-group-item list-group-item-light">address</li>
+              <li class="list-group-item list-group-item-light">hardware: mac address</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
 {% endblock content %}

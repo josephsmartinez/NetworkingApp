@@ -4,9 +4,25 @@
 
 - Set up development environment DONE
 - Build testing data
-- Set up Mongo or SQL Server
-- Create Login page
+- Set up Mongo or SQL Server DONE
+- Create Login page DONE
 - Dockerize app
+- Config Athenication
+- Update login process
+- Update views
+- Index json data to sql
+- Create view for past requests
+- Log GET and POST request
+- Intergrade other APIs if possible
+
+## Resources
+
+https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications
+https://docs.sqlalchemy.org/en/latest/orm/tutorial.html#connecting
+https://docs.python.org/2.5/lib/sqlite3-Cursor-Objects.html
+https://mariadb.com/resources/blog/how-to-connect-python-programs-to-mariadb/
+http://flask-sqlalchemy.pocoo.org/2.3/api/
+https://docs.sqlalchemy.org/en/latest/orm/session_basics.html
 
 ## Development
 

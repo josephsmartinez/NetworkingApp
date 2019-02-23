@@ -1,6 +1,6 @@
 import subprocess
 import json
-from linux_application.fileio import FileIO
+from linux_app.fileio import FileIO
 
 def get_host(mac: str) -> dict:
   '''
@@ -11,7 +11,7 @@ def get_host(mac: str) -> dict:
     FileIO.log(err_message)
     return err_message
   else: 
-    host = json.loads(subprocess.Popen('php apis/api.php ' + mac.lower(),
+    host = json.loads(subprocess.Popen('php linux_app/apis/api.php ' + mac.lower(),
     shell=True, stdout=subprocess.PIPE, 
     universal_newlines=True).communicate()[0])
 

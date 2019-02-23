@@ -17,31 +17,35 @@
   {% endif %}
 </head>
 <body>
+    <!-- Site Nav Bar -->
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="">CASTIC API</a>
+          <a class="navbar-brand mr-4" href="{{ url_for('home')}}">CASTIC Linux</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
-              <a class="nav-item nav-link" href="{{ url_for('home')}}">Enter Mac</a>
-              <a class="nav-item nav-link" href="{{ url_for('db')}}">DB Listing</a>
+              <a class="nav-item nav-link" href="{{ url_for('entermac')}}">Enter Mac</a>
+              <a class="nav-item nav-link" href="{{ url_for('ansiblecmdb')}}">Ansible Report</a>
+              <a class="nav-item nav-link" href="{{ url_for('dblisting')}}">DB Listing</a>
+              <!-- <a class="nav-item nav-link" href="{{ url_for('home')}}">Home</a> -->
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
-              <a class="nav-item nav-link" href="{{ url_for('useraccount')}}">Account</a>
-              <a class="nav-item nav-link" href="#">Log Out</a>
+              <a class="nav-item nav-link" href="{{ url_for('account')}}">Account</a>
+              <a class="nav-item nav-link" href="{{ url_for('logout')}}">Log Out</a>
               <a class="nav-item nav-link" href="{{ url_for('about')}}">About</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
+
     <main role="main" class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-sm-12">
           <!-- Flash messages when user logs in -->
           {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages%}
@@ -52,25 +56,13 @@
               {% endfor%}
             {% endif %}
           {% endwith%}
-          <!-- Main Content Block -->
-          {% block content %}{% endblock %}
-        </div>
-        <div class="col-md-4">
-          <div class="content-section">
-            <h3>Return Data</h3>
-            <p class='text-muted'>Enter a mac address to get host data.
-              <ul class="list-group">
-                <li class="list-group-item list-group-item-light">parent_name</li>
-                <li class="list-group-item list-group-item-light">parent_type</li>
-                <li class="list-group-item list-group-item-light">parent_port</li>
-                <li class="list-group-item list-group-item-light">fingerprint</li>
-                <li class="list-group-item list-group-item-light">address</li>
-                <li class="list-group-item list-group-item-light">hardware: mac address</li>
-              </ul>
-            </p>
-          </div>
         </div>
       </div>
+
+  <div class="container">
+      <!-- Main Content Block -->
+      {% block content %}{% endblock %}
+  </div>
     
   <hr>
   <div class="container">
