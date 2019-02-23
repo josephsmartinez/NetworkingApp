@@ -2,7 +2,7 @@ from flask import render_template, request, url_for, redirect, flash
 from linux_app import app, db, bcrypt
 from linux_app.models import User, Host
 from linux_app.forms import RegistrationForm, LoginForm
-from linux_app.netapi import get_host
+from linux_app.netapi import get_host, get_host, ping_host
 from linux_app.fileio import FileIO
 from flask_login import login_user, current_user, login_required, logout_user
 
@@ -54,16 +54,19 @@ def entermac():
     if macaddr != None:
       # Parse host information 
       host = get_host(macaddr)
-      print(host)
-      for k, v in host.items():
-        if isinstance(v, dict):
-          for k1, v1 in v.items():
-            print(k1, v1)
-        else:
-          print(k, v)
+      FileIO.log(str(host))
+
+      if host['status'] != 404:
+        pingable = ping_host(host['device']['address'])
+        # hostname = get_host(host['device']['address'])  FIXME
+        FileIO.log(host['device']['address'])
+        FileIO.log(str(pingable))
+        return render_template('entermac.html', host=host, pingable=pingable)
+
       return render_template('entermac.html', host=host)
     else:
       host = ""
+      flash('Nothing entered', 'danger')
       return render_template('entermac.html', host=host)
       
   return render_template('entermac.html')

@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
 
- <!--Start of Header-->
+  <!-- Main Content Block --> <!--Start of Header-->
   <div class="jumbotron ">
     <div class="container">
       <h1>FIU Networking API | CASTIC</h1>
@@ -19,41 +19,54 @@
     <form method="post">
       <div class="form-group">
         <label for="exampleInputEmail1">Please enter a MAC Address</label>
-        <input type="text" class="form-control" id="macaddr" name="macaddr" aria-describedby="emailHelp" placeholder="00:00:00:00:00:00">
+        <input type="text" class="form-control" id="macaddr" name="macaddr" aria-describedby="macaddr" placeholder="00:00:00:00:00:00">
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
+
+  <!-- Loader -->
+  <!-- <div class="lds-dual-ring"></div> -->
+
   <!-- End Input Section -->
 
   <hr>
-  <div class="container">
-      
-    <div class="">
-      {%if host %}
-      {% for k, v in host.items() %}
-      <p>Key: {{k}} Value: {{v}} </p>
-      {% endfor %}
-      {% else %}
-      <p>No Data</p>
-      {% endif %}
-    </div>
-  </div>
+
   <div class="row">
-      <div class="col-md-12">
+      <div class="col-sm-6">
         <div class="content-section">
           <h3>Return Data</h3>
           <p class='text-muted'>Enter a mac address to get host data.
             <ul class="list-group">
-              <li class="list-group-item list-group-item-light">parent name</li>
-              <li class="list-group-item list-group-item-light">parent type</li>
-              <li class="list-group-item list-group-item-light">parent port</li>
-              <li class="list-group-item list-group-item-light">fingerprint</li>
-              <li class="list-group-item list-group-item-light">address</li>
-              <li class="list-group-item list-group-item-light">hardware: mac address</li>
+              {% if host and host['status'] != 404  %}
+               {% if pingable %}
+                 <li class="list-group-item list-group-item-success">Host is up!</li>
+               {% endif %}
+                <li class="list-group-item list-group-item-light">parent name: {{ host['device']['parent_name'] }}</li>
+                <li class="list-group-item list-group-item-light">parent port:  {{ host['device']['parent_type'] }}</li>
+                <li class="list-group-item list-group-item-light">fingerprint:  {{ host['device']['parent_port'] }}</li>
+                <li class="list-group-item list-group-item-light">address:  {{ host['device']['address'] }}</li>
+                <li class="list-group-item list-group-item-light">hardware:  {{ host['device']['hardware'] }}</li>
+                <li class="list-group-item list-group-item-light">hardware:  {{ host['device']['fingerprint'] }}</li>
+              {% else %}
+                <li class="list-group-item list-group-item-danger">No host found</li>
+              {% endif %}
             </ul>
           </p>
         </div>
       </div>
+      <div class="col-sm-6">
+          <div class="content-section">
+            <h3>Other Data</h3>
+            <p class='text-muted'>Enter a mac address to get host data.
+              <ul class="list-group">
+               
+                  <li class="list-group-item list-group-item-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae harum ipsa ea sit aperiam ducimus maxime provident? Repellat vero architecto inventore illum, libero nesciunt perspiciatis assumenda atque suscipit iusto quaerat.</li>
+  
+  
+              </ul>
+            </p>
+          </div>
+        </div>
     </div>
 {% endblock content %}
