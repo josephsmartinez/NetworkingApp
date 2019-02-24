@@ -2,7 +2,7 @@ from flask import render_template, request, url_for, redirect, flash
 from linux_app import app, db, bcrypt
 from linux_app.models import User, Host
 from linux_app.forms import RegistrationForm, LoginForm
-from linux_app.netapi import get_host, get_host, ping_host
+from linux_app.netapi import get_host, nslookup_host, ping_host
 from linux_app.fileio import FileIO
 from flask_login import login_user, current_user, login_required, logout_user
 
@@ -52,16 +52,14 @@ def entermac():
     macaddr = request.form.get('macaddr')
 
     if macaddr != None:
-      # Parse host information 
       host = get_host(macaddr)
       FileIO.log(str(host))
 
       if host['status'] != 404:
         pingable = ping_host(host['device']['address'])
-        # hostname = get_host(host['device']['address'])  FIXME
-        FileIO.log(host['device']['address'])
-        FileIO.log(str(pingable))
-        return render_template('entermac.html', host=host, pingable=pingable)
+        hostname = nslookup_host(host['device']['address'])
+        FileIO.log(host['device']['address'], str(pingable), str(hostname))
+        return render_template('entermac.html', host=host, pingable=pingable, hostname=hostname)
 
       return render_template('entermac.html', host=host)
     else:
@@ -120,3 +118,22 @@ def account():
     flash('Your account has been created! You are now able to log in', 'success')
     return redirect(url_for('login'))
   return render_template('account.html', title='Register', form=form)
+
+@app.route("/register", methods=['GET', 'POST'])
+def register():
+  
+  '''
+  Example route for registering new users
+  '''
+  # if not current_user.is_authenticated:
+  #     return redirect(url_for('login'))
+
+  form = RegistrationForm()
+  if form.validate_on_submit():
+    hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
+    user = User(username=form.username.data, email=form.email.data, password=hashed_password)
+    db.session.add(user)
+    db.session.commit()
+    flash('Your account has been created! You are now able to log in', 'success')
+    return redirect(url_for('login'))
+  return render_template('register.html', title='Register', form=form)

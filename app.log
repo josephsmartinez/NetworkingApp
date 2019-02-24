@@ -1,152 +1,57 @@
-2019-02-23 16:42:47.571285 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 16:42:50.517275 {'status': 404, 'message': 'nothing'} 
-2019-02-23 16:42:53.572899 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 16:43:01.728657 {'status': 404, 'message': 'nothing'} 
-2019-02-23 16:52:25.572597 {'status': 404} 
-2019-02-23 16:52:27.577558 {'status': 404} 
-2019-02-23 16:53:51.983823 {'status': 404} 
-2019-02-23 16:53:57.123920 {'status': 404} 
-2019-02-23 16:54:00.791180 {'status': 404} 
-2019-02-23 16:54:04.050783 {'status': 404} 
-2019-02-23 16:55:08.963665 {'status': 404} 
-2019-02-23 16:57:05.005585 {'status': 404} 
-2019-02-23 16:57:07.133275 {'status': 404} 
-2019-02-23 16:57:10.660580 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 16:57:21.127571 {'status': 404} 
-2019-02-23 16:57:22.078391 {'status': 404} 
-2019-02-23 16:58:19.763123 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 16:59:34.633013 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:00:21.563144 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:01:00.087315 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:01:59.794888 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:02:39.514835 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:02:42.781994 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:02:47.808474 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:02:50.957696 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:02:54.668951 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:02:58.033501 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:03:01.167468 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:04:06.029595 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:04:09.260097 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:04:12.847692 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:05:11.978098 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:05:14.253264 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:05:15.984153 {'status': 404} 
-2019-02-23 17:05:17.211923 {'status': 404} 
-2019-02-23 17:05:19.090043 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:05:20.730230 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:05:22.628445 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:06:21.492506 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:06:25.262343 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:12:06.113013 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:13:07.008747 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:13:07.012877 True 
-2019-02-23 17:13:11.644881 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:13:15.392493 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:13:15.396786 True 
-2019-02-23 17:13:18.631919 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:14:04.513315 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:14:04.518044 True 
-2019-02-23 17:14:08.003599 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:15:32.560523 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:15:32.564919 True 
-2019-02-23 17:15:35.352988 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:16:19.662577 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:16:19.667122 1 
-2019-02-23 17:16:26.376332 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:16:26.429377 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:16:46.576648 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:16:50.149001 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:16:50.159187 1 
-2019-02-23 17:17:57.236462 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:17:57.240854 True 
-2019-02-23 17:18:00.597302 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:19:29.903272 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:19:29.915415 2019-02-23 17:19:34.385638 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:19:55.241193 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:19:55.246016 True 
-2019-02-23 17:19:58.826611 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:22:42.316911 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:22:42.320924 True 
-2019-02-23 17:22:46.223283 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:22:59.752203 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:25:21.935150 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:25:29.187396 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:25:29.191609 True 
-2019-02-23 17:29:01.511578 {'status': 404} 
-2019-02-23 17:29:05.130620 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:29:05.134396 ping command error 
-2019-02-23 17:29:05.134509 True 
-2019-02-23 17:29:10.787987 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:29:14.759624 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:30:19.536349 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:30:24.545339 True 
-2019-02-23 17:30:37.672065 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:30:41.568830 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:30:51.783831 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:30:56.795064 True 
-2019-02-23 17:31:00.952920 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:31:05.959394 True 
-2019-02-23 17:31:08.682585 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:32:54.573707 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:35:56.684830 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:36:00.336340 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:36:41.397138 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:36:44.615939 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:40:15.271996 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:40:15.280780 10.100.36.47 
-2019-02-23 17:40:35.265182 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:40:35.269369 10.100.36.47 
-2019-02-23 17:40:35.269497 True 
-2019-02-23 17:40:37.747451 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:40:37.751182 10.100.36.47 
-2019-02-23 17:40:37.751250 True 
-2019-02-23 17:41:20.358789 {'status': 404} 
-2019-02-23 17:41:21.636613 {'status': 404} 
-2019-02-23 17:41:23.510322 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:41:23.516774 10.100.36.47 
-2019-02-23 17:41:23.516856 True 
-2019-02-23 17:41:25.471490 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:42:12.017999 {'status': 404} 
-2019-02-23 17:42:13.087838 {'status': 404} 
-2019-02-23 17:42:15.887018 {'status': 404} 
-2019-02-23 17:42:17.385981 {'status': 404} 
-2019-02-23 17:42:18.070515 {'status': 404} 
-2019-02-23 17:42:19.762242 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:42:19.766068 10.100.36.47 
-2019-02-23 17:42:19.766154 True 
-2019-02-23 17:42:21.940459 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:42:22.763404 {'status': 404} 
-2019-02-23 17:42:23.294035 {'status': 404} 
-2019-02-23 17:42:23.769567 {'status': 404} 
-2019-02-23 17:42:24.215902 {'status': 404} 
-2019-02-23 17:42:25.059776 {'status': 404} 
-2019-02-23 17:42:26.803504 {'status': 404} 
-2019-02-23 17:42:31.343047 {'status': 404} 
-2019-02-23 17:42:35.492232 {'status': 404} 
-2019-02-23 17:45:47.237742 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:45:47.242758 10.100.36.47 
-2019-02-23 17:45:47.242831 True 
-2019-02-23 17:46:30.473875 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:46:30.486448 10.100.36.47 
-2019-02-23 17:46:30.486530 True 
-2019-02-23 17:46:37.042559 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:46:37.047068 10.100.36.47 
-2019-02-23 17:46:37.047144 True 
-2019-02-23 17:46:41.135770 {'status': 404} 
-2019-02-23 17:46:44.800248 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:46:47.847999 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:46:50.679292 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:46:50.686392 10.100.36.47 
-2019-02-23 17:46:50.686467 True 
-2019-02-23 17:48:25.802113 {'status': 404} 
-2019-02-23 17:48:31.207799 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:48:31.215646 10.100.36.47 
-2019-02-23 17:48:31.215738 True 
-2019-02-23 17:49:09.902515 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:49:09.910783 10.100.36.47 
-2019-02-23 17:49:09.910861 True 
-2019-02-23 17:49:22.228296 {'status': 404, 'message': 'nothing'} 
-2019-02-23 17:49:26.929433 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-23 17:49:26.933739 10.100.36.47 
-2019-02-23 17:49:26.933820 True 
+2019-02-24 00:23:13.113348 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 00:23:13.117617 10.100.36.47 
+2019-02-24 00:23:13.117686 True 
+2019-02-24 00:23:17.955616 {'status': 404, 'message': 'nothing'} 
+2019-02-24 00:25:07.426160 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 00:25:07.430800 10.100.36.47 
+2019-02-24 00:25:07.430892 True 
+2019-02-24 00:26:27.209442 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 00:28:49.537775 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 00:28:49.551530 10.100.36.47 
+2019-02-24 00:28:49.551594 True 
+2019-02-24 00:29:23.767868 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 00:29:23.791323 10.100.36.47 2019-02-24 00:29:23.791434 True 
+2019-02-24 00:29:57.440883 {'status': 404, 'message': 'nothing'} 
+2019-02-24 00:30:03.621359 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 00:30:03.640579 10.100.36.47 2019-02-24 00:30:03.640680 True 
+2019-02-24 00:31:44.552681 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 00:31:44.566665 10.100.36.47 True None 
+2019-02-24 00:31:44.566776 True 
+2019-02-24 00:32:05.758273 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 00:32:05.772715 10.100.36.47 True None 
+2019-02-24 00:32:05.772783 True 
+2019-02-24 00:33:53.266239 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 00:33:53.294585 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 00:34:00.504886 {'status': 404, 'message': 'nothing'} 
+2019-02-24 00:34:03.932034 {'status': 404, 'message': 'nothing'} 
+2019-02-24 00:34:07.777223 {'status': 404} 
+2019-02-24 00:34:57.425727 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 00:34:57.444757 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 00:48:37.802525 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 00:48:37.817002 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 00:48:41.461593 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 00:48:41.484216 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 00:48:45.871533 {'status': 404, 'message': 'nothing'} 
+2019-02-24 01:02:49.174957 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 01:02:49.199670 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 01:02:57.260881 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 01:02:57.276816 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 01:06:51.136300 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 01:06:51.153158 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 01:06:59.272211 {'status': 404, 'message': 'nothing'} 
+2019-02-24 01:07:01.947337 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 01:07:01.987347 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 01:10:06.244081 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 01:10:06.272998 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 01:10:19.515982 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 01:10:19.532598 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 01:11:07.334917 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 01:11:07.356494 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 01:11:13.215290 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 01:11:13.229070 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 01:11:14.187836 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 01:11:14.201919 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 01:27:24.846754 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 01:27:24.867811 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-24 03:14:32.149102 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-24 03:14:32.212520 10.100.36.47 True crankyallen.ad.fiu.edu 

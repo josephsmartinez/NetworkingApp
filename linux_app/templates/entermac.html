@@ -48,6 +48,7 @@
                 <li class="list-group-item list-group-item-light">address:  {{ host['device']['address'] }}</li>
                 <li class="list-group-item list-group-item-light">hardware:  {{ host['device']['hardware'] }}</li>
                 <li class="list-group-item list-group-item-light">hardware:  {{ host['device']['fingerprint'] }}</li>
+                <li class="list-group-item list-group-item-light">hostname:  {{ hostname }}</li>
               {% else %}
                 <li class="list-group-item list-group-item-danger">No host found</li>
               {% endif %}
@@ -57,13 +58,14 @@
       </div>
       <div class="col-sm-6">
           <div class="content-section">
-            <h3>Other Data</h3>
-            <p class='text-muted'>Enter a mac address to get host data.
+            <h3>CASEIDB Data</h3>
+            <p class='text-muted'>Information below is realtime information from CASTIC CASEIDB
               <ul class="list-group">
-               
-                  <li class="list-group-item list-group-item-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae harum ipsa ea sit aperiam ducimus maxime provident? Repellat vero architecto inventore illum, libero nesciunt perspiciatis assumenda atque suscipit iusto quaerat.</li>
-  
-  
+                  <li class="list-group-item list-group-item-light">asset_tag: </li>
+                  <li class="list-group-item list-group-item-light">manufacturer: </li>
+                  <li class="list-group-item list-group-item-light">assigned_to: </li>
+                  <li class="list-group-item list-group-item-light">location: </li>
+                  <li class="list-group-item list-group-item-light">asset_tag: </li>
               </ul>
             </p>
           </div>

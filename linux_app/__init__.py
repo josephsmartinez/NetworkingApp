@@ -8,6 +8,7 @@ app = Flask(__name__)
 # Research this
 app.config['SECRET_KEY'] = '6dfed37d10b6d7034c0ebbb2972bd97d'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:password@piggy.ad.fiu.edu/linuxapp'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)

@@ -23,6 +23,7 @@ https://docs.python.org/2.5/lib/sqlite3-Cursor-Objects.html
 https://mariadb.com/resources/blog/how-to-connect-python-programs-to-mariadb/
 http://flask-sqlalchemy.pocoo.org/2.3/api/
 https://docs.sqlalchemy.org/en/latest/orm/session_basics.html
+https://stackoverflow.com/questions/27766794/switching-from-sqlite-to-mysql-with-flask-sqlalchemy
 
 ## Development
 

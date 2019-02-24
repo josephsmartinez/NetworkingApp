@@ -12,22 +12,26 @@ from linux_app.fileio import FileIO
 
 def get_host(mac: str) -> dict:
   '''
-  Return a JSON object with host networking information
+  Calls Network Security API
+  Return  JSON object
   '''
-  if mac == None:
-    err_message="{'message': 'Missing mac address or malformed'}"
-    FileIO.log(err_message)
-    return err_message
-  else: 
-    host = json.loads(subprocess.Popen('php linux_app/apis/api.php ' + mac.lower(),
-    shell=True, stdout=subprocess.PIPE, 
-    universal_newlines=True).communicate()[0])
-
-    return host
+  try:
+    if mac == None:
+      err_message="{'error': 'Missing mac address or malformed'}"
+      FileIO.log(str(err_message))
+      return err_message
+    else: 
+      host = json.loads(subprocess.Popen('php linux_app/apis/api.php ' + mac.lower(),
+      shell=True, stdout=subprocess.PIPE, 
+      universal_newlines=True).communicate()[0])
+      return host
+  except Exception as err:
+    FileIO.log(str(err))
 
 def ping_host(ip: str) -> bool:
   '''
   Ping host using ip address or hostname
+  Return True or False
   '''
   try:
     if ip:
@@ -50,9 +54,9 @@ def ping_host(ip: str) -> bool:
 
 def nslookup_host(ip: str) -> str:
   '''
-  NSlookup host using ip address or hostname
-  Examples:
-  nslookup 10.100.36.47 | egrep -o "([A-Za-z ])\w+\.\w+\.\w+\.\w+"
+  NSlookup host using ip address
+  Return String or None
+  Regex: egrep -o "([A-Za-z ])\w+\.\w+\.\w+\.\w+"
   '''
   
   try:
@@ -70,9 +74,9 @@ def nslookup_host(ip: str) -> str:
   try:
     # Check the response success
     if hostname:
-       print(hostname)
+       return hostname
     else:
-      print('could not process host name')
+      return None
   except Exception as err:
     FileIO.log("response error for nslookup_host function")
 
