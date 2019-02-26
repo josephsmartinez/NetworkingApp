@@ -1,57 +1,9 @@
-2019-02-24 00:23:13.113348 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 00:23:13.117617 10.100.36.47 
-2019-02-24 00:23:13.117686 True 
-2019-02-24 00:23:17.955616 {'status': 404, 'message': 'nothing'} 
-2019-02-24 00:25:07.426160 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 00:25:07.430800 10.100.36.47 
-2019-02-24 00:25:07.430892 True 
-2019-02-24 00:26:27.209442 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 00:28:49.537775 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 00:28:49.551530 10.100.36.47 
-2019-02-24 00:28:49.551594 True 
-2019-02-24 00:29:23.767868 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 00:29:23.791323 10.100.36.47 2019-02-24 00:29:23.791434 True 
-2019-02-24 00:29:57.440883 {'status': 404, 'message': 'nothing'} 
-2019-02-24 00:30:03.621359 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 00:30:03.640579 10.100.36.47 2019-02-24 00:30:03.640680 True 
-2019-02-24 00:31:44.552681 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 00:31:44.566665 10.100.36.47 True None 
-2019-02-24 00:31:44.566776 True 
-2019-02-24 00:32:05.758273 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 00:32:05.772715 10.100.36.47 True None 
-2019-02-24 00:32:05.772783 True 
-2019-02-24 00:33:53.266239 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 00:33:53.294585 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 00:34:00.504886 {'status': 404, 'message': 'nothing'} 
-2019-02-24 00:34:03.932034 {'status': 404, 'message': 'nothing'} 
-2019-02-24 00:34:07.777223 {'status': 404} 
-2019-02-24 00:34:57.425727 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 00:34:57.444757 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 00:48:37.802525 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 00:48:37.817002 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 00:48:41.461593 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 00:48:41.484216 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 00:48:45.871533 {'status': 404, 'message': 'nothing'} 
-2019-02-24 01:02:49.174957 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 01:02:49.199670 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 01:02:57.260881 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 01:02:57.276816 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 01:06:51.136300 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 01:06:51.153158 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 01:06:59.272211 {'status': 404, 'message': 'nothing'} 
-2019-02-24 01:07:01.947337 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 01:07:01.987347 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 01:10:06.244081 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 01:10:06.272998 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 01:10:19.515982 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 01:10:19.532598 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 01:11:07.334917 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 01:11:07.356494 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 01:11:13.215290 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 01:11:13.229070 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 01:11:14.187836 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 01:11:14.201919 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 01:27:24.846754 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 01:27:24.867811 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-24 03:14:32.149102 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-24 03:14:32.212520 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-25 23:59:57.934547 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-25 23:59:57.950496 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-26 00:00:51.401237 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-26 00:00:51.416518 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-26 00:00:51.419931 FOUND HOST: Host('pc-ais06', 'Gi2/20', 'Generic Linux', '10.100.36.47', '00:0c:29:5c:0d:e6' ) 
+2019-02-26 00:03:51.563445 {'status': 200, 'device': {'parent_name': 'pc-ais07', 'parent_type': 'Switch', 'parent_port': 'Gi4/41', 'address': '10.100.67.155', 'hardware': '08:00:27:7f:2e:4a', 'fingerprint': 'nomatch'}} 
+2019-02-26 00:03:51.585507 10.100.67.155 True piggy.ad.fiu.edu 
+2019-02-26 00:04:18.387566 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-02-26 00:04:18.402928 10.100.36.47 True crankyallen.ad.fiu.edu 

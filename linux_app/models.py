@@ -6,6 +6,12 @@ from flask_login import UserMixin
 def load_user(user_id):
     return User.query.get(int(user_id))
 
+def check_mac(mac_address) -> str:
+    '''
+    Returns a string data of the mac address is found, else, ""
+    '''
+    return Host.query.get(str(mac_address)) 
+
 class User(db.Model, UserMixin):
     #__tablename__ = 'user'
     id = db.Column(db.Integer, primary_key=True)

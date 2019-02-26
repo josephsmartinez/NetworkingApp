@@ -1,6 +1,6 @@
 from flask import render_template, request, url_for, redirect, flash
 from linux_app import app, db, bcrypt
-from linux_app.models import User, Host
+from linux_app.models import User, Host, check_mac
 from linux_app.forms import RegistrationForm, LoginForm
 from linux_app.netapi import get_host, nslookup_host, ping_host
 from linux_app.fileio import FileIO
@@ -52,20 +52,30 @@ def entermac():
     macaddr = request.form.get('macaddr')
 
     if macaddr != None:
-      host = get_host(macaddr)
-      FileIO.log(str(host))
+      host_json = get_host(macaddr)
+      FileIO.log(str(host_json))
 
-      if host['status'] != 404:
-        pingable = ping_host(host['device']['address'])
-        hostname = nslookup_host(host['device']['address'])
-        FileIO.log(host['device']['address'], str(pingable), str(hostname))
-        return render_template('entermac.html', host=host, pingable=pingable, hostname=hostname)
+      # If host found check for ICMP, hostname, and add to database
+      if host_json['status'] != 404:
+        pingable = ping_host(host_json['device']['address'])
+        hostname = nslookup_host(host_json['device']['address'])
+        FileIO.log(host_json['device']['address'], str(pingable), str(hostname))
 
-      return render_template('entermac.html', host=host)
+        # Check if host is in the database, if not, commit to DB
+        host_found = check_mac(host_json['device']['hardware'])
+
+        if not host_found:
+          new_host = Host(hardware=host_json['device']['hardware'],parent_name=host_json['device']['parent_name'], parent_type=host_json['device']['parent_type'], parent_port=host_json['device']['parent_port'], fingerprint=host_json['device']['fingerprint'], address=host_json['device']['address'])
+          db.session.add(new_host)
+          db.session.commit()
+
+        return render_template('entermac.html', host=host_json, pingable=pingable, hostname=hostname)
+
+      return render_template('entermac.html', host=host_json)
     else:
-      host = ""
+      host_json = ""
       flash('Nothing entered', 'danger')
-      return render_template('entermac.html', host=host)
+      return render_template('entermac.html', host=host_json)
       
   return render_template('entermac.html')
 
