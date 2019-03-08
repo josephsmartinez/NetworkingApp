@@ -58,7 +58,10 @@ def nslookup_host(ip: str) -> str:
   Return String or None
   Regex: egrep -o "([A-Za-z ])\w+\.\w+\.\w+\.\w+"
   '''
-  
+  # FIXME: Check all returns from nslookup check regex 
+  # ** server can't find 93.35.100.10.in-addr.arpa: NXDOMAIN
+  #  name = rho.fiu.edu.
+
   try:
     if ip:
      proc = subprocess.Popen('nslookup ' + ip + ' | egrep -o "([A-Za-z ])\w+\.\w+\.\w+\.\w+"',

@@ -65,9 +65,19 @@ def entermac():
         host_found = check_mac(host_json['device']['hardware'])
 
         if not host_found:
-          new_host = Host(hardware=host_json['device']['hardware'],parent_name=host_json['device']['parent_name'], parent_type=host_json['device']['parent_type'], parent_port=host_json['device']['parent_port'], fingerprint=host_json['device']['fingerprint'], address=host_json['device']['address'])
+          # FIXME The SQL commits JSON objects, Check for different sizes and keys
+
+          # new_host = Host(hardware=host_json['device']['hardware'],parent_name= name if host_json['device']['parent_name'] else None , parent_type= type if host_json['device']['parent_type'] else None, parent_port= port if host_json['device']['parent_port'] else None, fingerprint= finger if host_json['device']['fingerprint'] else None, address=host_json['device']['address'])
+          
+          try:
+            new_host = Host(hardware=host_json['device']['hardware'],parent_name=host_json['device']['parent_name'], parent_type= host_json['device']['parent_type'], parent_port=host_json['device']['parent_port'], fingerprint= host_json['device']['fingerprint'], address=host_json['device']['address'])
+          except:
+            new_host = Host(hardware=host_json['device']['hardware'],parent_name= None , parent_type= None, parent_port= None, fingerprint= host_json['device']['fingerprint'], address=host_json['device']['address'])
+
           db.session.add(new_host)
           db.session.commit()
+
+          # FIXME Make a way to update the database and flag changes to the switchs
 
         return render_template('entermac.html', host=host_json, pingable=pingable, hostname=hostname)
 

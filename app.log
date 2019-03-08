@@ -1,9 +1,47 @@
-2019-02-25 23:59:57.934547 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-25 23:59:57.950496 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-26 00:00:51.401237 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-26 00:00:51.416518 10.100.36.47 True crankyallen.ad.fiu.edu 
-2019-02-26 00:00:51.419931 FOUND HOST: Host('pc-ais06', 'Gi2/20', 'Generic Linux', '10.100.36.47', '00:0c:29:5c:0d:e6' ) 
-2019-02-26 00:03:51.563445 {'status': 200, 'device': {'parent_name': 'pc-ais07', 'parent_type': 'Switch', 'parent_port': 'Gi4/41', 'address': '10.100.67.155', 'hardware': '08:00:27:7f:2e:4a', 'fingerprint': 'nomatch'}} 
-2019-02-26 00:03:51.585507 10.100.67.155 True piggy.ad.fiu.edu 
-2019-02-26 00:04:18.387566 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
-2019-02-26 00:04:18.402928 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-02-27 13:38:46.101894 {'status': 200, 'device': {'parent_name': 'pc-ais04', 'parent_type': 'Switch', 'parent_port': 'Gi3/4', 'address': '10.100.70.20', 'hardware': '50:9a:4c:08:e8:cc', 'fingerprint': 'MSFT 5.0'}} 
+2019-02-27 13:38:47.117468 10.100.70.20 False hure8cc.ad.fiu.edu 
+2019-02-27 13:38:56.871245 {'status': 200, 'device': {'parent_name': 'cp-ais01', 'parent_type': 'Switch', 'parent_port': 'Gi1/0/11', 'fingerprint': 'Generic Linux', 'address': '10.101.36.85', 'hardware': '90:b1:1c:8d:cd:26'}} 
+2019-02-27 13:38:56.895166 10.101.36.85 True dsred.ad.fiu.edu 
+2019-02-27 13:39:18.740469 {'status': 200, 'device': {'address': '10.100.124.46', 'hardware': 'd8:9e:f3:82:f0:76', 'fingerprint': 'nomatch'}} 
+2019-02-27 13:39:19.775969 10.100.124.46 False bisf076.ad.fiu.edu 
+2019-02-27 13:54:15.737996 {'status': 200, 'device': {'parent_name': 'pc-ais04', 'parent_type': 'Switch', 'parent_port': 'Gi3/4', 'address': '10.100.70.20', 'hardware': '50:9a:4c:08:e8:cc', 'fingerprint': 'MSFT 5.0'}} 
+2019-02-27 13:54:16.761348 10.100.70.20 False hure8cc.ad.fiu.edu 
+2019-02-27 13:54:41.554130 {'status': 200, 'device': {'parent_name': 'astro-ais02', 'parent_type': 'Switch', 'parent_port': 'Gi1/0/10', 'address': '10.100.35.93', 'hardware': '78:24:af:3a:27:ea', 'fingerprint': 'Ubuntu/Debian 5/Knoppix 6'}} 
+2019-02-27 13:54:42.573121 10.100.35.93 False 93.35.100.10 
+2019-02-27 13:54:58.373388 {'status': 200, 'device': {'parent_name': 'pc-ais04', 'parent_type': 'Switch', 'parent_port': 'Gi3/4', 'address': '10.100.70.20', 'hardware': '50:9a:4c:08:e8:cc', 'fingerprint': 'MSFT 5.0'}} 
+2019-02-27 13:54:59.390057 10.100.70.20 False hure8cc.ad.fiu.edu 
+2019-02-27 13:55:03.917862 {'status': 200, 'device': {'fingerprint': 'Fedora 14 based distro', 'address': '10.100.67.27', 'hardware': '00:25:90:5d:87:ca', 'parent_name': 'pc-ais07', 'parent_type': 'Switch', 'parent_port': 'Gi4/43'}} 
+2019-02-27 13:55:03.942407 10.100.67.27 True None 
+2019-02-27 13:55:09.294752 {'status': 200, 'device': {'parent_name': 'pc-ais04', 'parent_type': 'Switch', 'parent_port': 'Gi3/4', 'address': '10.100.70.20', 'hardware': '50:9a:4c:08:e8:cc', 'fingerprint': 'MSFT 5.0'}} 
+2019-02-27 13:55:10.321693 10.100.70.20 False hure8cc.ad.fiu.edu 
+2019-02-27 13:55:30.732366 {'status': 200, 'device': {'address': '10.100.124.46', 'hardware': 'd8:9e:f3:82:f0:76', 'fingerprint': 'nomatch'}} 
+2019-02-27 13:55:31.755487 10.100.124.46 False bisf076.ad.fiu.edu 
+2019-02-27 13:57:03.482033 {'status': 200, 'device': {'parent_name': 'cp-ais01', 'parent_type': 'Switch', 'parent_port': 'Gi1/0/11', 'fingerprint': 'Generic Linux', 'address': '10.101.36.85', 'hardware': '90:b1:1c:8d:cd:26'}} 
+2019-02-27 13:57:03.502050 10.101.36.85 True dsred.ad.fiu.edu 
+2019-02-27 13:58:10.867050 {'status': 200, 'device': {'parent_name': 'ahc4-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi3/18', 'fingerprint': 'nomatch', 'address': '10.100.20.249', 'hardware': '40:8d:5c:bb:d0:17'}} 
+2019-02-27 13:58:10.883009 10.100.20.249 True 408d5cbbd017.p.fiu.edu 
+2019-02-27 14:00:25.330570 {'status': 200, 'device': {'parent_name': 'ahc1-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi3/17', 'fingerprint': 'Ubuntu/Debian 5/Knoppix 6', 'address': '10.100.34.16', 'hardware': '00:10:18:ce:26:98'}} 
+2019-02-27 14:00:25.353511 10.100.34.16 True ngs.p.fiu.edu 
+2019-02-27 14:05:02.832697 {'status': 200, 'device': {'parent_name': 'astro-ais02', 'parent_type': 'Switch', 'parent_port': 'Gi1/0/10', 'address': '10.100.35.93', 'hardware': '78:24:af:3a:27:ea', 'fingerprint': 'Ubuntu/Debian 5/Knoppix 6'}} 
+2019-02-27 14:05:03.856869 10.100.35.93 False 93.35.100.10 
+2019-02-27 14:16:40.616740 {'status': 200, 'device': {'parent_name': 'cp-ais03', 'parent_type': 'Switch', 'parent_port': 'Gi5/34', 'fingerprint': 'Generic Linux', 'address': '10.101.37.204', 'hardware': '34:17:eb:d3:fb:e6'}} 
+2019-02-27 14:16:40.635933 10.101.37.204 True alice.ad.fiu.edu 
+2019-02-27 14:16:58.441588 {'status': 404, 'message': 'nothing'} 
+2019-02-27 14:17:02.703199 {'status': 404, 'message': 'nothing'} 
+2019-02-27 14:17:13.440140 {'status': 404, 'message': 'nothing'} 
+2019-02-27 14:17:23.247376 {'status': 404, 'message': 'nothing'} 
+2019-02-27 14:17:29.398177 {'status': 200, 'device': {'parent_name': 'scp-11', 'parent_type': 'Switch', 'parent_port': 'Gi1/0/8', 'fingerprint': 'Fedora 14 based distro', 'address': '10.101.37.70', 'hardware': '00:1a:a0:1b:5c:ac'}} 
+2019-02-27 14:17:29.430911 10.101.37.70 True minouche2.p.fiu.edu 
+2019-02-27 14:17:47.418750 {'status': 200, 'device': {'parent_name': 'scp-11', 'parent_type': 'Switch', 'parent_port': 'Gi1/0/6', 'address': '131.94.194.125', 'hardware': '00:1a:a0:1b:5a:2f', 'fingerprint': 'RedHat/Fedora-based Linux'}} 
+2019-02-27 14:17:47.434955 131.94.194.125 True None 
+2019-02-27 14:22:17.309572 {'status': 200, 'device': {'address': '10.100.70.20', 'hardware': '50:9a:4c:08:e8:cc', 'fingerprint': 'MSFT 5.0'}} 
+2019-02-27 14:22:18.329112 10.100.70.20 False hure8cc.ad.fiu.edu 
+2019-02-27 14:22:21.836341 {'status': 200, 'device': {'parent_name': 'cp-ais01', 'parent_type': 'Switch', 'parent_port': 'Gi1/0/11', 'fingerprint': 'Generic Linux', 'address': '10.101.36.85', 'hardware': '90:b1:1c:8d:cd:26'}} 
+2019-02-27 14:22:21.863854 10.101.36.85 True dsred.ad.fiu.edu 
+2019-02-27 14:22:28.131528 {'status': 200, 'device': {'parent_name': 'cp-ais01', 'parent_type': 'Switch', 'parent_port': 'Gi1/0/11', 'address': '10.101.36.57', 'hardware': '00:21:70:68:b2:bb', 'fingerprint': 'Generic Linux'}} 
+2019-02-27 14:22:28.148301 10.101.36.57 True marv.ad.fiu.edu 
+2019-02-27 14:22:35.264446 {'status': 200, 'device': {'parent_name': 'scp-11', 'parent_type': 'Switch', 'parent_port': 'Gi1/0/6', 'address': '131.94.194.125', 'hardware': '00:1a:a0:1b:5a:2f', 'fingerprint': 'RedHat/Fedora-based Linux'}} 
+2019-02-27 14:22:35.281540 131.94.194.125 True None 
+2019-02-27 14:31:21.998038 {'status': 404, 'message': 'nothing'} 
+2019-02-27 15:36:34.087392 {'status': 200, 'device': {'parent_name': 'pc-ais04', 'parent_type': 'Switch', 'parent_port': 'Gi3/4', 'address': '10.100.70.20', 'hardware': '50:9a:4c:08:e8:cc', 'fingerprint': 'MSFT 5.0'}} 
+2019-02-27 15:36:35.151037 10.100.70.20 False hure8cc.ad.fiu.edu 
