@@ -1,11 +1,63 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-  <h3>Comming Soon!</h3>
-</body>
-</html>
+{% extends "layout.html" %}
+{% block content %}
+
+  <!-- Main Content Block --> <!--Start of Header-->
+  <div class="jumbotron ">
+    <div class="container">
+      <h1>FIU Snipe-IT API | CASTIC</h1>
+      <p>All employees, contractors, consultants, temporary, and other workers at CASTIC and its subsidiaries are responsible for exercising good judgment regarding appropriate use of information, electronic devices, and network resources in accordance with FIU policies and standards, and local laws and regulation. Exceptions to this policy are documented in section 5.2 of CASTIC internal policies and procedures.</p>
+    </div>
+  </div>
+  <!--End of Header-->
+
+  <hr>
+
+  <div class="row">
+      <div class="col-sm-6">
+
+        <div class="content-section">
+            <div class="container">
+                <select class="custom-select" id="mySelect" onchange="searchby()">
+                <option value="">Choose...</option>
+                <option value="Assest Tag">Assest Tag</option>
+                <option value="Mac Address">Mac Address</option>
+                <option value="Serial Number">Serial Number</option>
+              </select>
+            </div>
+            <hr>
+              <div class="container">
+                <p id="demo"></p>
+              </div>
+              
+              <!-- Edit Custom Javascript File for Input Customization -->
+              <script>
+                searchby() 
+              </script>
+
+
+            <hr>
+          <h3>Return Data</h3>
+          <p class='text-muted'>
+            <ul class="list-group">
+
+
+              <!-- {% if host and host['status'] != 404  %}
+               {% if pingable %}
+                 <li class="list-group-item list-group-item-success">Host is up!</li>
+               {% endif %}
+                <li class="list-group-item list-group-item-light">parent name: {{ host['device']['parent_name'] }}</li>
+                <li class="list-group-item list-group-item-light">parent port:  {{ host['device']['parent_type'] }}</li>
+                <li class="list-group-item list-group-item-light">fingerprint:  {{ host['device']['parent_port'] }}</li>
+                <li class="list-group-item list-group-item-light">address:  {{ host['device']['address'] }}</li>
+                <li class="list-group-item list-group-item-light">hardware:  {{ host['device']['hardware'] }}</li>
+                <li class="list-group-item list-group-item-light">hardware:  {{ host['device']['fingerprint'] }}</li>
+                <li class="list-group-item list-group-item-light">hostname:  {{ hostname }}</li>
+              {% else %}
+                <li class="list-group-item list-group-item-danger">No host found</li>
+              {% endif %} -->
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+{% endblock content %}

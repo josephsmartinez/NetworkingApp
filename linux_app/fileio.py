@@ -10,13 +10,11 @@ class FileIO:
   def save_to_file(data: dict,file_name: str) -> None:
     with open(file_name,'w') as write_file:
       json.dump(data,write_file,indent=4)
-      #print("The file {0} was successfully created.".format(file_name))
       
   @staticmethod              
   def read_from_file(file_name: str) -> None:
     with open(file_name,'r') as read_file:
         file=json.load(read_file)
-        #print("You successfully read from {0}.".format(file_name))
         return file
   
   @staticmethod

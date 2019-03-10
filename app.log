@@ -45,3 +45,68 @@
 2019-02-27 14:31:21.998038 {'status': 404, 'message': 'nothing'} 
 2019-02-27 15:36:34.087392 {'status': 200, 'device': {'parent_name': 'pc-ais04', 'parent_type': 'Switch', 'parent_port': 'Gi3/4', 'address': '10.100.70.20', 'hardware': '50:9a:4c:08:e8:cc', 'fingerprint': 'MSFT 5.0'}} 
 2019-02-27 15:36:35.151037 10.100.70.20 False hure8cc.ad.fiu.edu 
+2019-03-09 19:40:35.851641 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 19:40:35.903882 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 21:28:28.048008 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 21:28:28.091262 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 21:46:28.812481 {'status': 200, 'device': {'address': '10.100.106.133', 'hardware': '78:7b:8a:dc:8b:cd', 'fingerprint': 'Apple Mac OS X, TV (HD)'}} 
+2019-03-09 21:46:29.830413 10.100.106.133 False cew8bcd.ad.fiu.edu 
+2019-03-09 23:06:19.355459 {'status': 404} 
+2019-03-09 23:08:34.150436 {'status': 404} 
+2019-03-09 23:10:45.293130 {'status': 404} 
+2019-03-09 23:11:15.219071 {'status': 404} 
+2019-03-09 23:12:37.960604 {'status': 404} 
+2019-03-09 23:13:17.785958 {'status': 404} 
+2019-03-09 23:13:37.433924 {'status': 404} 
+2019-03-09 23:14:03.043417 {'status': 404} 
+2019-03-09 23:14:16.089262 {'status': 404} 
+2019-03-09 23:14:30.768946 {'status': 404} 
+2019-03-09 23:15:35.788085 {'status': 404} 
+2019-03-09 23:15:52.524593 {'status': 404} 
+2019-03-09 23:16:00.921680 {'status': 404} 
+2019-03-09 23:17:20.353792 {'status': 404} 
+2019-03-09 23:17:42.923007 {'status': 404} 
+2019-03-09 23:17:50.020394 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:17:50.041272 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:18:39.098910 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:18:39.114096 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:22:59.472063 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:22:59.498803 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:28:02.117022 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:28:02.133135 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:28:22.496386 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:28:22.529650 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:28:34.803762 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:28:34.818153 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:29:04.836134 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:29:04.851861 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:29:25.719507 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:29:25.740325 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:29:58.653986 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:29:58.669828 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:30:18.037955 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:30:18.065696 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:30:27.449623 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:30:27.470596 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:30:37.577393 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:30:37.594957 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:31:09.226826 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:31:09.247913 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:31:19.531561 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:31:19.549171 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:32:52.012672 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:32:52.029146 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:33:23.652211 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:33:23.668109 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:34:26.075990 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:34:26.094618 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:35:02.553204 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:35:02.575587 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:35:24.849764 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:35:24.865872 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:35:56.304875 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:35:56.329842 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:36:59.663975 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:36:59.692537 10.100.36.47 True crankyallen.ad.fiu.edu 
+2019-03-09 23:42:50.745695 {'status': 200, 'device': {'parent_name': 'pc-ais06', 'parent_type': 'Switch', 'parent_port': 'Gi2/20', 'address': '10.100.36.47', 'hardware': '00:0c:29:5c:0d:e6', 'fingerprint': 'Generic Linux'}} 
+2019-03-09 23:42:50.771371 10.100.36.47 True crankyallen.ad.fiu.edu 

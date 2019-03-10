@@ -24,6 +24,10 @@ https://mariadb.com/resources/blog/how-to-connect-python-programs-to-mariadb/
 http://flask-sqlalchemy.pocoo.org/2.3/api/
 https://docs.sqlalchemy.org/en/latest/orm/session_basics.html
 https://stackoverflow.com/questions/27766794/switching-from-sqlite-to-mysql-with-flask-sqlalchemy
+http://exploreflask.com/en/latest/static.html
+https://getbootstrap.com/docs/4.0/getting-started/introduction/
+https://snipe-it.readme.io/v4.0/reference#hardware-list
+https://github.com/jbloomer/SnipeIT-PythonAPI
 
 ## Development
 

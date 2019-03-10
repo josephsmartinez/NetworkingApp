@@ -8,3 +8,6 @@ worknotes/
 
 # Other files
 /venv
+
+# JSON object files
+caseidb.json
