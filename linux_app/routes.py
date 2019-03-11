@@ -4,6 +4,7 @@ from linux_app.models import User, Host, check_mac
 from linux_app.forms import RegistrationForm, LoginForm
 from linux_app.netapi import get_host, nslookup_host, ping_host
 from linux_app.fileio import FileIO
+from linux_app.snipeit import get_assest_by_tag
 from flask_login import login_user, current_user, login_required, logout_user
 
 
@@ -101,12 +102,25 @@ def cadvisor():
 
   return render_template('dblisting.html')
 
-@app.route("/dblisting")
+@app.route("/dblisting", methods=['GET', 'POST'])
 @login_required
 def dblisting():
-  
+  if request.method == 'POST': #this block is only entered when the form is submitted
+    
+    tag = request.form.get('tag')
+    
+    if tag != None:
+      #host_json = get_assest_by_tag(tag)
+      host_json=FileIO.read_from_file("caseidb.json")
+      FileIO.log(str(host_json))
+      return render_template('dblisting.html', host=host_json)
+    else:
+      host_json = ""
+      flash('Nothing entered', 'danger')
+      return render_template('dblisting.html', host=host_json)
+      
   return render_template('dblisting.html')
-
+  
 @app.route("/about")
 @login_required
 def about():
@@ -140,6 +154,7 @@ def account():
   return render_template('account.html', title='Register', form=form)
 
 @app.route("/register", methods=['GET', 'POST'])
+@login_required
 def register():
   
   '''

@@ -47,7 +47,7 @@ function searchby() {
     <div class="row">
       <div class="col-sm">
           <label for="exampleInputEmail1">Enter Serial Number</label>
-          <input type="text" class="form-control" id="macaddr" name="macaddr" aria-describedby="macaddr" placeholder="A0BC2D3E4F5">
+          <input type="text" class="form-control" id="serial" name="serial" aria-describedby="macaddr" placeholder="A0BC2D3E4F5">
         </div>
       <div class="col-sm">
         <div class="container" style="text-align:center ;padding-top:32px;">

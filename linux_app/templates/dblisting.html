@@ -13,7 +13,7 @@
   <hr>
 
   <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-12">
 
         <div class="content-section">
             <div class="container">
@@ -40,21 +40,28 @@
           <p class='text-muted'>
             <ul class="list-group">
 
+                <div class="col-sm-12">
+          <div class="content-section">
+              
+                <hr>
+            <h3>CASEIDB Data</h3>
+            <p class='text-muted'>Information below is realtime information from CASTIC CASEIDB
+              <ul class="list-group">
+                {% if host%}
+                  <strong>EXAMPLE DATA</strong>
+                  <li class="list-group-item list-group-item-light">asset_tag: {{ host['rows'][0]['asset_tag'] }} </li>
+                  <li class="list-group-item list-group-item-light">serial: {{ host['rows'][0]['serial'] }} </li>
+                  <li class="list-group-item list-group-item-light">assigned_to: {{ host['rows'][0]['assigned_to']["name"] }} </li>
+                  <li class="list-group-item list-group-item-light">location: {{ host['rows'][0]['location']["name"] }}</li>
+                  <li class="list-group-item list-group-item-light">name: {{ host['rows'][0]['name'] }}</li>
+                {% endif%}
+              </ul>
+            </p>
+          </div>
+        </div> 
 
-              <!-- {% if host and host['status'] != 404  %}
-               {% if pingable %}
-                 <li class="list-group-item list-group-item-success">Host is up!</li>
-               {% endif %}
-                <li class="list-group-item list-group-item-light">parent name: {{ host['device']['parent_name'] }}</li>
-                <li class="list-group-item list-group-item-light">parent port:  {{ host['device']['parent_type'] }}</li>
-                <li class="list-group-item list-group-item-light">fingerprint:  {{ host['device']['parent_port'] }}</li>
-                <li class="list-group-item list-group-item-light">address:  {{ host['device']['address'] }}</li>
-                <li class="list-group-item list-group-item-light">hardware:  {{ host['device']['hardware'] }}</li>
-                <li class="list-group-item list-group-item-light">hardware:  {{ host['device']['fingerprint'] }}</li>
-                <li class="list-group-item list-group-item-light">hostname:  {{ hostname }}</li>
-              {% else %}
-                <li class="list-group-item list-group-item-danger">No host found</li>
-              {% endif %} -->
+
+            
             </ul>
           </p>
         </div>

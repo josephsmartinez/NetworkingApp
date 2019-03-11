@@ -37,4 +37,3 @@ secrets.token_hex(16)
 [Flashing With Categories](http://flask.pocoo.org/docs/1.0/patterns/flashing/#flashing-with-categories)
 
 - Magic methods
-- 
